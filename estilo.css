@@ -1,4 +1,12 @@
 body{
-  background-color:white
- collor red
+  background-color:white;
+ color:blue;
 }
+
+ .cabecalho{
+    background-color: blue;
+    text-align: center;
+    padding: 30px;
+  }
+
+
