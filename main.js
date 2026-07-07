@@ -1,8 +1,8 @@
 const botoes =Document.queryselectorAll("button")
 console.log(botoes)
 
-botoes.forEach(function){
+botoes.forEach(function(botao) {
 let curtiu =false;
-botão.addEventListener("click", boãoclicado)
+botao.addEventListener("click", botaoclicado)
 
-}()
+})
