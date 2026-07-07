@@ -1,12 +1,12 @@
-const botoes =Document.queryselectorAll("button")
+const botoes =document.queryselectorAll("button")
 console.log(botoes)
 
 botoes.forEach(function(botao) {
 let curtiu =false;
 botao.addEventListener("click", botaoclicado)
- functionbotaoclicado(){
-
-
+ function botaoclicado(){
+let texto=botao.queryselector("span")
+ texto.textContent++
 
  }
 
